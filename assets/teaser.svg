@@ -1,0 +1,79 @@
+<svg width="1200" height="460" viewBox="0 0 1200 460" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="460" rx="28" fill="#F5F1E8"/>
+  <rect x="24" y="24" width="1152" height="412" rx="22" fill="#FFFDFC" stroke="#D6CFC2" stroke-width="2"/>
+  <text x="60" y="88" fill="#1E2430" font-family="Arial, sans-serif" font-size="34" font-weight="700">
+    ID-Crafter
+  </text>
+  <text x="60" y="122" fill="#425466" font-family="Arial, sans-serif" font-size="20">
+    Compositional multi-subject video generation from text prompts and multiple reference images
+  </text>
+
+  <rect x="60" y="172" width="255" height="112" rx="18" fill="#E7EFE7" stroke="#89A58F" stroke-width="2"/>
+  <text x="84" y="214" fill="#183A22" font-family="Arial, sans-serif" font-size="22" font-weight="700">
+    Identity-Preserving
+  </text>
+  <text x="84" y="244" fill="#183A22" font-family="Arial, sans-serif" font-size="22" font-weight="700">
+    Attention
+  </text>
+  <text x="84" y="272" fill="#476150" font-family="Arial, sans-serif" font-size="15">
+    Intra-subject, inter-subject,
+  </text>
+  <text x="84" y="292" fill="#476150" font-family="Arial, sans-serif" font-size="15">
+    and cross-modal aggregation
+  </text>
+
+  <rect x="370" y="172" width="220" height="112" rx="18" fill="#E9EEF8" stroke="#7D95BE" stroke-width="2"/>
+  <text x="398" y="214" fill="#1D3557" font-family="Arial, sans-serif" font-size="22" font-weight="700">
+    VLM Semantic
+  </text>
+  <text x="398" y="244" fill="#1D3557" font-family="Arial, sans-serif" font-size="22" font-weight="700">
+    Guidance
+  </text>
+  <text x="398" y="272" fill="#4F6385" font-family="Arial, sans-serif" font-size="15">
+    Multi-subject reasoning and
+  </text>
+  <text x="398" y="292" fill="#4F6385" font-family="Arial, sans-serif" font-size="15">
+    fine-grained interaction control
+  </text>
+
+  <rect x="645" y="172" width="220" height="112" rx="18" fill="#F8EDE7" stroke="#C29172" stroke-width="2"/>
+  <text x="675" y="214" fill="#6A3518" font-family="Arial, sans-serif" font-size="22" font-weight="700">
+    Online RL
+  </text>
+  <text x="675" y="244" fill="#6A3518" font-family="Arial, sans-serif" font-size="22" font-weight="700">
+    Refinement
+  </text>
+  <text x="675" y="272" fill="#8A5739" font-family="Arial, sans-serif" font-size="15">
+    Better concept alignment,
+  </text>
+  <text x="675" y="292" fill="#8A5739" font-family="Arial, sans-serif" font-size="15">
+    temporal quality, and identity
+  </text>
+
+  <rect x="920" y="150" width="220" height="156" rx="20" fill="#1E2430"/>
+  <rect x="952" y="184" width="156" height="88" rx="14" fill="#F5F1E8"/>
+  <circle cx="984" cy="216" r="18" fill="#D8C0A8"/>
+  <circle cx="1031" cy="214" r="14" fill="#C4D9B5"/>
+  <circle cx="1073" cy="224" r="20" fill="#ADC8E6"/>
+  <path d="M965 252C988 232 1016 238 1040 224C1064 210 1087 214 1097 246" stroke="#7D95BE" stroke-width="4" stroke-linecap="round"/>
+  <text x="946" y="336" fill="#1E2430" font-family="Arial, sans-serif" font-size="20" font-weight="700">
+    Multi-subject video output
+  </text>
+  <text x="944" y="362" fill="#5B6878" font-family="Arial, sans-serif" font-size="15">
+    Prompt aligned, identity consistent,
+  </text>
+  <text x="944" y="382" fill="#5B6878" font-family="Arial, sans-serif" font-size="15">
+    and temporally coherent
+  </text>
+
+  <path d="M315 228H350" stroke="#6B7280" stroke-width="4" stroke-linecap="round"/>
+  <path d="M590 228H625" stroke="#6B7280" stroke-width="4" stroke-linecap="round"/>
+  <path d="M865 228H900" stroke="#6B7280" stroke-width="4" stroke-linecap="round"/>
+  <path d="M342 218L356 228L342 238" fill="#6B7280"/>
+  <path d="M617 218L631 228L617 238" fill="#6B7280"/>
+  <path d="M892 218L906 228L892 238" fill="#6B7280"/>
+
+  <text x="60" y="350" fill="#7A6F5C" font-family="Arial, sans-serif" font-size="16">
+    Repository status: documentation scaffold first, code and checkpoints to be released after cleanup.
+  </text>
+</svg>

@@ -1,0 +1,8 @@
+# Placeholder dependency file for the upcoming public code release.
+#
+# The public repository currently exposes documentation and release scaffolding
+# only. Exact runtime dependencies will be added once inference/training code is
+# published.
+#
+# Keep this file in place so downstream users and automation already have the
+# expected project entry point.

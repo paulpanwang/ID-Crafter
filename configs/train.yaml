@@ -1,0 +1,16 @@
+# Placeholder training configuration for the future public release.
+
+experiment_name: id_crafter_train_placeholder
+output_dir: outputs/train
+
+data:
+  train_manifest: ""
+  val_manifest: ""
+
+model:
+  pretrained_path: ""
+
+optimization:
+  batch_size: 1
+  learning_rate: 0.0001
+  max_steps: 1000

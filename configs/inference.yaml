@@ -1,0 +1,16 @@
+# Placeholder inference configuration for the future public release.
+
+experiment_name: id_crafter_inference_placeholder
+output_dir: outputs/inference
+
+inputs:
+  prompt: ""
+  reference_images: []
+
+model:
+  checkpoint: ""
+  device: cuda
+
+sampling:
+  num_frames: 16
+  seed: 42
