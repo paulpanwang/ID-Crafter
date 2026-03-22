@@ -13,21 +13,15 @@ Official repository for **ID-Crafter**, a framework for compositional multi-subj
 
 We showcase compositional video generation results with multiple subjects, preserving identity consistency and enabling complex interactions.
 
-<video 
-  width="800" 
-  controls 
-  crossorigin="anonymous"
-  preload="metadata"   
-  poster="https://github.com/Angericky/ID-Composer/raw/main/assets/teaser.svg"  
->
-  <!-- 核心：确认这个 Pages 链接能在浏览器直接打开（非 404） -->
-  <source 
-    src="assets/IDCrafter_website_teaser_compressed.mp4" 
-    type="video/mp4; codecs=avc1" 
-  >
-  <!-- 错误兜底：加载失败时显示下载链接 -->
-  视频加载失败，请手动下载：<a href="assets/IDCrafter_website_teaser_compressed.mp4">IDCrafter_website_teaser_compressed.mp4</a>
-</video>
+<div align="center">
+  <video 
+    src="https://github.com/user-attachments/assets/9b6d3996-fab2-4709-8350-c5efdd37e880" 
+    controls="controls" 
+    width="800" 
+    style="max-width: 100%;"
+    poster="https://github.com/Angericky/ID-Composer/raw/main/assets/teaser.svg">
+  </video>
+</div>
 
 Visit our project page[https://angericky.github.io/ID-Composer/](https://angericky.github.io/ID-Composer/) for more interesting results!
 
