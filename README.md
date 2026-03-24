@@ -8,6 +8,23 @@ Official repository for **ID-Crafter**, a framework for compositional multi-subj
 
 ![ID-Crafter teaser](assets/teaser.svg)
 
+
+## 🎨ID-Crafter
+
+We showcase compositional video generation results with multiple subjects, preserving identity consistency and enabling complex interactions.
+
+<div align="center">
+  <video 
+    src="https://github.com/user-attachments/assets/9b6d3996-fab2-4709-8350-c5efdd37e880" 
+    controls="controls" 
+    width="800" 
+    style="max-width: 100%;"
+    poster="https://github.com/Angericky/ID-Composer/raw/main/assets/teaser.svg">
+  </video>
+</div>
+
+Visit our project page[https://angericky.github.io/ID-Composer/](https://angericky.github.io/ID-Composer/) for more interesting results!
+
 ## News
 
 - `2025-11-01`: ID-Crafter was released on arXiv.
@@ -15,21 +32,58 @@ Official repository for **ID-Crafter**, a framework for compositional multi-subj
 - `2026`: The arXiv journal reference lists **CVPR 2026**.
 - `2026-03-18`: The public repository scaffold was expanded with project documentation, citation metadata, prompt examples, and release notes.
 
-## Overview
+## 🏗️ Architecture
 
-ID-Crafter targets a difficult setting in video generation: producing a coherent video that preserves the identities of multiple subjects while still following a compositional text prompt. The method combines:
+<div align="center">
+  <img src="assets/architecture.png" width="90%">
+</div>
 
-- **Hierarchical identity-preserving attention** to aggregate information within subjects, across subjects, and across modalities.
-- **VLM-guided semantic reasoning** to capture fine-grained interactions among multiple subjects.
-- **Online reinforcement learning refinement** to improve concept alignment, identity preservation, and temporal quality.
+Our framework builds upon a compositional generation paradigm that integrates:
 
-According to the paper, ID-Crafter establishes strong performance on multi-subject video generation benchmarks and introduces a new dataset for training and evaluation.
+- **Identity Encoding** from multiple reference images  
+- **Hierarchical Attention Mechanism** for identity preservation  
+- **VLM-Guided Semantic Alignment** for interaction reasoning  
+- **Online RL Optimization** for improved temporal consistency and realism  
 
-## Current Status
+This design enables scalable and controllable multi-subject video synthesis.
+
+<!-- ## Current Status
 
 This repository is being prepared for a broader public release. As of `2026-03-18`, the public `main` branch contains project-level documentation and release scaffolding, but it does **not** yet include the training pipeline, inference code, evaluation scripts, or model checkpoints.
 
-For the detailed release note, see [docs/release_status.md](docs/release_status.md).
+For the detailed release note, see [docs/release_status.md](docs/release_status.md). -->
+<!-- ## ✨ Highlights
+
+- **Compositional Multi-Subject Video Generation**  
+  Generate videos from a text prompt with multiple reference identities.
+
+- **Hierarchical Identity-Preserving Attention**  
+  Maintains identity consistency across frames and subjects.
+
+- **VLM-Guided Semantic Reasoning**  
+  Enables fine-grained interaction understanding between subjects.
+
+- **Online Reinforcement Learning Refinement**  
+  Improves temporal coherence and visual quality during generation.
+ -->
+
+## 📊 Performance
+
+
+We evaluate ID-Crafter on the open-domain subject-to-video benchmark, comparing with both proprietary and open-source models.
+
+
+### 📈 Quantitative Comparison
+
+| Method | Total Score ↑ | Motion ↑ | FaceSim ↑ | Natural ↑ |
+|--------|-------------|----------|-----------|-----------|
+| VACE-14B | 52.87 | 15.02 | 55.09 | 72.78 |
+| Phantom-14B | 52.32 | 33.42 | 51.48 | 68.66 |
+| SkyReels-A2-P14B | 49.61 | 25.60 | 45.95 | 67.22 |
+| **ID-Crafter (1.3B + RL)** | **55.16** | 36.50 | **66.10** | 69.15 |
+| **ID-Crafter (14B)** | **57.05** | **40.34** | **60.71** | **73.23** |
+
+ID-Crafter achieves state-of-the-art performance among open-source methods, improving total score by over  **4%** while significantly enhancing identity preservation (FaceSim), and further benefits from online RL to boost **motion alignment and visual quality**, with the 14B model delivering the best overall balance across all metrics.
 
 ## Release Roadmap
 
